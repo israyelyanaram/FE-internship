@@ -1,0 +1,180 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap"); /*font-family: 'Open Sans', sans-serif; */
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+:focus, :active {
+  outline: none;
+}
+
+a:focus, a:active {
+  outline: none;
+}
+
+nav, footer, header, aside {
+  display: block;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input, button, textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a, a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: 400;
+}
+
+.charts {
+  display: flex;
+  max-width: 912px;
+}
+.charts .charts-only {
+  display: flex;
+}
+.charts .charts-only .chart-line {
+  max-width: 402px;
+  background: #2a2a2a;
+  padding: 18px;
+  max-height: 300px;
+}
+.charts .charts-only .chart-line canvas {
+  background: #2a2a2a;
+  max-height: 300px;
+}
+.charts .charts-only .chart-doughnut {
+  position: relative;
+  padding: 18px;
+  background: #222222;
+  max-width: 200px;
+  max-height: 300px;
+}
+.charts .charts-only .chart-doughnut span {
+  color: rgba(255, 255, 255, 0.737254902);
+  position: absolute;
+  left: 43%;
+  top: 34%;
+  font-size: 28px;
+  font-family: "Open Sans", sans-serif;
+}
+.charts .line-text {
+  display: flex;
+  justify-content: space-between;
+}
+.charts .svg-map {
+  background: #2a2a2a;
+  padding: 18px;
+  min-width: 310px;
+  max-width: 310px;
+  max-height: 300px;
+}
+.charts .svg-map .map {
+  background: #2a2a2a;
+}
+.charts .svg-map .map .States {
+  fill: #fbcf71;
+}
+.charts .svg-map .map path {
+  fill: #818181;
+  cursor: pointer;
+  stroke-width: 1;
+  transition: all 0.6s;
+}
+.charts .svg-map .map path:hover {
+  fill: white;
+}
+.charts .svg-map .map-area {
+  display: flex;
+  padding-bottom: 10px;
+}
+.charts .svg-map .map-area .box {
+  width: 15px;
+  height: 15px;
+  margin-bottom: 10px;
+  background-color: #818181;
+  cursor: pointer;
+}
+.charts .svg-map .map-area .box:hover {
+  background-color: white;
+  box-shadow: 0 0 4px white;
+}
+.charts .svg-map .lines {
+  display: flex;
+  justify-content: end;
+}
+.charts .svg-map .lines .timeline-select2 {
+  padding-bottom: 5px;
+  margin: 10px 0;
+}
+.charts .svg-map .map-countries div {
+  display: flex;
+  justify-content: space-between;
+  color: rgba(255, 255, 255, 0.737254902);
+  border-top: 1px solid #222222;
+  border-bottom: 1px solid #222222;
+}
+.charts .svg-map .map-countries div span {
+  padding: 6px;
+}
+.charts .chart-line h2,
+.charts .chart-doughnut h2,
+.charts .svg-map h2 {
+  margin-bottom: 10px;
+  color: rgba(255, 255, 255, 0.737254902);
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.charts .timeline-select,
+.charts .timeline-select2 {
+  display: flex;
+  background-color: transparent;
+  color: #818181;
+  font-size: 14px;
+  overflow: hidden;
+  cursor: pointer;
+}/*# sourceMappingURL=chart-style.css.map */

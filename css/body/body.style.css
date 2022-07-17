@@ -1,0 +1,294 @@
+.content {
+  max-width: 912px;
+}
+.content .container {
+  display: flex;
+  position: relative;
+}
+.content .container .wrapper {
+  min-width: 100%;
+}
+.content .container .wrapper header {
+  display: flex;
+  justify-content: end;
+  max-width: 912px;
+  height: 55px;
+  background-color: whitesmoke;
+}
+.content .container .wrapper header .language {
+  display: flex;
+  width: 80px;
+  border-left: 2px solid #d2d2d2;
+  border-right: 2px solid #d2d2d2;
+  justify-content: center;
+}
+.content .container .wrapper header .language ul {
+  display: flex;
+}
+.content .container .wrapper header .language ul li .list-a {
+  margin-top: 20px;
+  display: flex;
+  text-decoration: none;
+  color: #171717;
+}
+.content .container .wrapper header .language ul li .list-a img {
+  width: 18px;
+  border-radius: 8px;
+  margin-right: 5px;
+}
+.content .container .wrapper header .account {
+  padding: 4px;
+  min-width: 300px;
+  display: flex;
+  justify-content: space-around;
+}
+.content .container .wrapper header .account img {
+  cursor: pointer;
+}
+.content .container .wrapper header .account img:hover {
+  border: 2px solid transparent;
+  border-radius: 50%;
+}
+.content .container .wrapper header .account .accaunt-information {
+  margin-top: 10px;
+  align-items: center;
+  color: #535353;
+}
+.content .container .wrapper header .account .accaunt-information::first-line {
+  color: #171717;
+}
+.content .container .wrapper .dashboard {
+  display: flex;
+  max-width: 100%;
+  height: 45px;
+  background-color: rgba(210, 210, 210, 0.3568627451);
+  border: 2px solid rgba(210, 210, 210, 0.8235294118);
+}
+.content .container .wrapper .dashboard .dashboard-container {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+.content .container .wrapper .dashboard .dashboard-container .dashboard-text {
+  display: flex;
+  width: calc(100% - 210px);
+  align-items: center;
+}
+.content .container .wrapper .dashboard .dashboard-container .dashboard-text span {
+  margin-left: 25px;
+  color: #535353;
+  font-family: serif;
+}
+.content .container .wrapper .dashboard .dashboard-container .page-fav {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 250px;
+  background-color: #bdbdbd;
+  color: #737373;
+  font-weight: bold;
+}
+.content .container .wrapper .dashboard .dashboard-container .page-fav #heart {
+  font-size: 16px;
+  cursor: pointer;
+}
+.content .container .wrapper .dashboard .dashboard-container .page-fav #heart:hover {
+  color: red;
+  text-shadow: 0 0 4px red;
+}
+.content .container .wrapper main {
+  max-width: 912px;
+}
+.content .container .wrapper main .first-two {
+  display: flex;
+}
+.content .container .wrapper main .main-content .numbers-div {
+  display: flex;
+  max-width: 912px;
+  height: 160px;
+}
+.content .container .wrapper main .main-content .numbers-div .num-div-init {
+  display: flex;
+  min-width: 228px;
+  max-width: 456px;
+}
+.content .container .wrapper main .main-content .numbers-div .numbers {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 228px;
+}
+.content .container .wrapper main .main-content .numbers-div .numbers .first-number {
+  position: relative;
+}
+.content .container .wrapper main .main-content .numbers-div .numbers .first-number #first,
+.content .container .wrapper main .main-content .numbers-div .numbers .first-number #second,
+.content .container .wrapper main .main-content .numbers-div .numbers .first-number #third,
+.content .container .wrapper main .main-content .numbers-div .numbers .first-number #fourth {
+  fill: rgba(182, 182, 182, 0.1098039216);
+  position: absolute;
+  height: 200px;
+  margin: -50px 0 0 -30px;
+}
+.content .container .wrapper main .main-content .numbers-div .numbers .first-number #second {
+  margin: -10px 0 0 -50px;
+}
+.content .container .wrapper main .main-content .numbers-div .numbers .first-number #fourth {
+  margin: -50px 0 0 50px;
+}
+.content .container .wrapper main .main-content .numbers-div .numbers .first-number .number {
+  display: flex;
+  font-weight: bold;
+  font-size: 40px;
+  justify-content: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.content .container .wrapper main .main-content .numbers-div .numbers .first-number .numbers-footer {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+.content .container .wrapper main .main-content .numbers-div .numbers .first-number .numbers-footer i {
+  font-size: 16px;
+}
+.content .container .wrapper main .main-content .numbers-div .numbers .first-number .numbers-footer span {
+  margin-left: 5px;
+  color: #737373;
+}
+.content .container .wrapper main .main-content .main-container {
+  position: relative;
+  max-width: 912px;
+}
+.content .container .wrapper main .main-content .main-container .charts-list {
+  position: relative;
+  max-width: 912px;
+}
+.content .container .wrapper main .main-content .main-container .table-headers {
+  display: flex;
+  max-width: 912px;
+  min-height: 210px;
+}
+.content .container .wrapper main .main-content .main-container .table-headers .tables-menu .menu-list {
+  background-color: #383838;
+  min-height: 40px;
+  width: 304px;
+  border-right: 1px solid #737373;
+  font-size: 21px;
+  padding: 10px;
+  color: #d2d2d2;
+}
+.content .container .wrapper main .main-content .main-container .table-headers .first-table {
+  max-width: 304px;
+  min-height: 210px;
+  width: 304px;
+  padding: 0 6px;
+  text-align: center;
+  font-size: 13px;
+  border: 1px solid #d2d2d2;
+}
+.content .container .wrapper main .main-content .main-container .table-headers .first-table i {
+  cursor: pointer;
+}
+.content .container .wrapper main .main-content .main-container .table-headers .first-table i:hover {
+  color: #00acac;
+  text-shadow: 0 0 2px #00acac;
+}
+.content .container .wrapper main .main-content .main-container .table-headers .first-table td {
+  border-bottom: 1px solid #d2d2d2;
+}
+.content .container .navbar {
+  min-width: 60px;
+  transition: all 1s;
+}
+.content .container .navbar span {
+  display: none;
+}
+.content .container .navbar nav {
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: 100vh;
+  height: 100%;
+  font-size: 15px;
+  color: rgba(210, 210, 210, 0.8235294118);
+  background-color: #171717;
+}
+.content .container .navbar nav .nav-header {
+  display: flex;
+  justify-content: end;
+}
+.content .container .navbar nav .nav-header img {
+  width: 60px;
+  height: 55px;
+  border: 4px solid red;
+}
+.content .container .navbar nav .nav-header span {
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  font-size: 20px;
+}
+.content .container .navbar nav .nav-header span:hover {
+  color: #00acac;
+  text-shadow: 0 0 2px #00acac;
+}
+.content .container .navbar nav i {
+  color: #ffffff;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+.content .container .navbar nav i:hover {
+  color: #1f7bb6;
+  text-shadow: 0 0 8px #1f7bb6;
+}
+.content .container .navbar nav .nav-menu-bar span {
+  cursor: pointer;
+  margin: 0 auto;
+}
+.content .container .navbar nav .nav-menu-bar span:hover,
+.content .container .navbar nav .nav-menu-bar span i:hover {
+  color: #1f7bb6;
+  text-shadow: 0 0 2px #1f7bb6;
+}
+.content .container .navbar nav .nav-menu-bar .nav-menu-content {
+  position: relative;
+  display: flex;
+  height: 45px;
+  background-color: #2a2a2a;
+  align-items: center;
+  justify-content: end;
+  padding-right: 25px;
+}
+.content .container .navbar nav .nav-menu-bar .nav-menu-content:hover {
+  color: red;
+}
+.content .container .navbar nav .nav-menu-bar .nav-menu-content .navbar-button {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.content .container .navbar nav .nav-menu-bar .nav-menu-content .navbar-button button {
+  position: absolute;
+  width: 20px;
+  height: 30px;
+  margin-left: 25px;
+  font-weight: bold;
+  font-size: 20px;
+  background-color: #171717;
+  border: 1px #171717 solid;
+  color: white;
+  border-radius: 8px;
+  box-shadow: 0 0 8px rgba(23, 23, 23, 0.7333333333);
+  transition: all 1s;
+}
+.content .container .navbar nav .nav-menu-bar .black {
+  background-color: #171717;
+  border-top: 1px solid rgba(128, 128, 128, 0.231372549);
+}
+.content .container .navbar nav .nav-menu-bar .black:hover {
+  color: red;
+}
+.content .container .navbar nav .nav-menu-bar .black i:hover {
+  color: red;
+  text-shadow: 0 0 8px red;
+}/*# sourceMappingURL=body.style.css.map */

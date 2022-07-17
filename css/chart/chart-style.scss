@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap'); /*font-family: 'Open Sans', sans-serif; */
+*{
+   padding: 0;
+   margin: 0;
+   border: 0;
+}
+*,*:before,*:after{
+   -moz-box-sizing: border-box;
+   -webkit-box-sizing: border-box;
+   box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+html,body{
+   height: 100%;
+   width: 100%;
+   font-size: 100%;
+   line-height: 1;
+   font-size: 14px;
+   -ms-text-size-adjust: 100%;
+   -moz-text-size-adjust: 100%;
+   -webkit-text-size-adjust: 100%;
+}
+input,button,textarea{font-family:inherit;}
+
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+
+
+.charts{
+    display: flex;
+    max-width: 912px;
+    .charts-only{
+        display: flex;
+        .chart-line{
+            max-width: 402px;
+            background:#2a2a2a;
+            padding: 18px;
+            max-height: 300px;
+            canvas{
+                background:#2a2a2a;
+                max-height: 300px;
+            }
+        }
+
+        .chart-doughnut{
+            position: relative;
+            padding: 18px;
+            background: #222222;
+            max-width: 200px;
+            max-height: 300px;
+            span{
+                color: #ffffffbc;
+                position: absolute;
+                left: 43%;
+                top: 34%;
+                font-size: 28px;
+                font-family: 'Open Sans', sans-serif;
+            }
+        }
+    }
+    .line-text{
+        display: flex;
+        justify-content: space-between;
+    }
+    .svg-map{
+        background:#2a2a2a;
+        padding: 18px;
+        min-width: 310px;
+        max-width: 310px;
+        max-height: 300px;
+        .map{
+            background:#2a2a2a;
+            .States{
+                fill: #fbcf71;
+            }
+            path{
+                fill: #818181;
+                cursor: pointer;
+                stroke-width: 1;
+                transition: all 0.6s;
+                &:hover{
+                    fill: white;
+                }
+            }
+        }
+        .map-area{
+            display: flex;
+            padding-bottom: 10px;
+            .box{
+                width: 15px;
+                height: 15px;
+                margin-bottom: 10px;
+                background-color: #818181;
+                cursor: pointer;
+                &:hover{
+                    background-color: white;
+                    box-shadow: 0 0 4px white;
+                }
+            }
+
+        }
+        .lines{
+            display: flex;
+            justify-content: end;
+            .timeline-select2{
+                padding-bottom: 5px;
+                margin: 10px 0;
+            }
+        }
+        .map-countries div{
+            display: flex;
+            justify-content: space-between;
+            color: #ffffffbc;
+            border-top: 1px solid #222222; 
+            border-bottom: 1px solid #222222;
+            span {
+                padding: 6px;
+            }
+        }
+    }
+    .chart-line h2,
+    .chart-doughnut h2,
+    .svg-map h2{
+    margin-bottom: 10px;
+    color: #ffffffbc;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .timeline-select,
+    .timeline-select2{
+    display: flex;
+    background-color: transparent;
+    color: #818181;
+    font-size: 14px;
+    overflow: hidden;
+    cursor: pointer;
+    }
+}
